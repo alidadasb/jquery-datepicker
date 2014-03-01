@@ -1,0 +1,16 @@
+<plugin name='jquery-ui-timepicker' version='0.9.8.1' grailsVersion='1.3.7 &gt; *'>
+  <author>Jakob Munih</author>
+  <authorEmail>munih@parsek.net</authorEmail>
+  <title>Jquery Ui Timepicker Plugin</title>
+  <description>\
+Jquery Ui Timepicker Plugin
+</description>
+  <documentation>http://grails.org/plugin/grails-jquery-ui-timepicker</documentation>
+  <resources>
+    <resource>TimePickerResources</resource>
+  </resources>
+  <dependencies>
+    <plugin name='jqueryUi' version='1.5 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>
