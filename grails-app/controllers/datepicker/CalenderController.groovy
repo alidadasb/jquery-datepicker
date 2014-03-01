@@ -2,8 +2,8 @@ package datepicker
 
 class CalenderController {
 
-    def save() {
-        new Calender(params).save(flush:true)
+    def save(Date endDate) {
+        new Calender(endDate:endDate).save(flush:true,failOnError: true)
         render "Result save in database:   " + Calender.list()
     }
 }
